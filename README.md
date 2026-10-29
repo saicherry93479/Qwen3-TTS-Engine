@@ -23,16 +23,7 @@ Work started 2026-10-04 23:55 IST; the numbers below were measured by 04:55 IST 
 | 1.7B-Base | 448 | 56.1 | 73.3 | 77.3 | 0.445 | 0.473 | 0.490 | 35.2 | 4,962 |
 | 1.7B-Base | 480 | 59.8 | 78.2 | 82.5 | 0.474 | 0.504 | 0.513 | 37.8 | 5,391 |
 
-**Above that, first audio is what gives out** (15 s warm-up + 90 s windows, `results/open2_0.6B.json`,
-`results/open3_1.7B.json`):
 
-| model | offered | TTFA p50 | p99 | real-time factor p50 | p99 | rejected |
-|---|---|---|---|---|---|---|
-| 0.6B | 640 | 82.3 ms | 131.4 | 0.718 | 0.820 | 0 |
-| 0.6B | 768 | 114.0 | 168.5 | 1.038 | 1.071 | 223 |
-| 1.7B | 512 | 70.7 | 102.9 | 0.607 | 0.651 | 0 |
-| 1.7B | 576 | 83.0 | 124.5 | 0.700 | 0.777 | 0 |
-| 1.7B | 640 | 103.9 | 173.3 | 0.886 | 1.079 | 32 |
 
 Terms used throughout:
 
