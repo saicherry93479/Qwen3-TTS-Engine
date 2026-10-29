@@ -1,0 +1,8 @@
+results/
+logs/
+samples/
+weights/
+.venv/
+__pycache__/
+*.pyc
+Qwen3-TTS/
